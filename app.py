@@ -11,7 +11,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.figure_factory as ff
 import numpy as np
-from PIL import Image
+#from PIL import Image
 
 
 
@@ -227,11 +227,11 @@ col15.metric("HERowS Score", round(herows_score,2),bijection_decile_value(decile
 # col122.write(f"c_max: {round(v_c_max,3)} ({decile_c_avg})")
 # col122.write(f"herows_score: {round(herows_score,3)}")
 
-container_img = col11.container()
+#container_img = col11.container()
 
-image = Image.open('img.jpg')
+#image = Image.open('img.jpg')
 
-container_img.image(image, caption='Only colored elements are accepted')
+#container_img.image(image, caption='Only colored elements are accepted')
 
 st.markdown('----')
 
