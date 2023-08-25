@@ -6,4 +6,4 @@ seaborn
 numpy
 openpyxl
 scipy
-PIL
+
